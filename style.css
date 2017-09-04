@@ -1,0 +1,34 @@
+body {
+	background-image: url(map.png);
+}
+
+#heading {
+	color: darkgreen;
+	background-color: white;
+
+	text-align: center;
+	padding: 10px;
+}
+
+#left-side-panel {
+	background-color: aliceblue;
+	padding: 5px;
+	
+}
+
+#middle-panel {
+	background-color: white;
+	padding: 5px;
+	
+}
+
+#right-side-panel {
+	background-color: seashell;
+	padding: 5px;
+	
+}
+
+#page-bottom {
+	background-color: lavender;
+	padding: 10px;
+}
