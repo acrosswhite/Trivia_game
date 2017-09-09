@@ -8,10 +8,10 @@ body {
 
 	text-align: center;
 	padding: 10px;
+	font-family: Georgia;
 }
 
 #left-side-panel {
-	background-color: aliceblue;
 	padding: 5px;
 	
 }
@@ -23,12 +23,39 @@ body {
 }
 
 #right-side-panel {
-	background-color: seashell;
+	background-color: white;
 	padding: 5px;
 	
 }
 
 #page-bottom {
-	background-color: lavender;
 	padding: 10px;
+}
+
+#submit{
+	font-size: 16px;
+	padding: 5px;
+	color: darkgreen;
+	font-family: Georgia;
+}
+
+#display {
+	padding: 10px;
+}
+
+.question {
+	padding-top: 50px;
+	font-family: Georgia;
+	font-size: 22px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	padding: 10px;
+	list-style-type: none;
+	font-size: 16px;
+	font-family: Georgia;
 }
