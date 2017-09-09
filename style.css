@@ -41,6 +41,23 @@ body {
 
 #display {
 	padding: 10px;
+	font-size: 16px;
+	text-align: center;
+}
+
+#panel-heading {
+	padding: 10px;
+	font-family: Georgia;
+	font-size: 18px;
+	text-align: center;
+	color: darkgreen;
+}
+
+#results {
+	font-size: 20px;
+	font-family: Georgia;
+	color: darkgreen;
+	text-align: center;
 }
 
 .question {

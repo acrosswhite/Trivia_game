@@ -42,6 +42,30 @@
  	correctAnswer: "b",
  },
 
+  	{question: "What is the tallest building in the world?", answers: {
+ 		a: " Salesforce Tower",
+ 		b: " Empire State Building",
+ 		c: " Burj Khalifa",
+ 	},
+ 	correctAnswer: "c",
+ },
+
+  	{question: "Which city in China is formerly known as Peking?", answers: {
+ 		a: " Beijing",
+ 		b: " Shanghai",
+ 		c: " Xi'an",
+ 	},
+ 	correctAnswer: "a",
+ },
+
+  	{question: "What natural wonder can be seen from space?", answers: {
+ 		a: " Mississippi River",
+ 		b: " Great Barrier Reef",
+ 		c: " Niagra Falls",
+ 	},
+ 	correctAnswer: "b",
+ }
+
  ];
 
 
@@ -161,14 +185,16 @@ var generateQuiz =function (){
 			if(userAnswer === triviaQuestions[i].correctAnswer){
 				numCorrect++;
 				
-				answerDisplay[i].style.color = "lightgreen";
+				answerDisplay[i].style.color = "green";
 			}
 			else{
-				alert("Wrong Answer!");
+				answerDisplay[i].style.color = "darkred";
 			}
 		}
 
-		results.innerHTML = numCorrect + ' out of ' + triviaQuestions.length;
+		results.innerHTML = numCorrect + " out of " + triviaQuestions.length;
+
+		alert("You got " + numCorrect + " out of " + triviaQuestions.length);
 	};
 
 	buildQuiz();
